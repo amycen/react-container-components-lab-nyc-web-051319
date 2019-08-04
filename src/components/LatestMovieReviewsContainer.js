@@ -13,4 +13,11 @@ class LatestMovieReviewsContainer extends Component{
     reviews: []
   }
   
+  render (){
+    return (
+      <div className="latest-movie-reviews">
+      <MovieReviews reviews={this.state.reviews} />
+      </div
+    )
+  }
 }
