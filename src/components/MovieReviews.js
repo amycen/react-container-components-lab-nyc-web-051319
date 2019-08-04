@@ -3,5 +3,10 @@
 import React from 'react'
 
 const MovieReviews (props) => {
-  render 
+  return (
+    <div className="review-list">
+      <div className="review">
+      </div>
+    </div>
+  )
 }
